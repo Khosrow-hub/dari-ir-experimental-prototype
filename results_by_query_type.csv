@@ -1,0 +1,25 @@
+﻿method,query_type,precision@5,recall@5,f1@5,top_5_accuracy
+Exact Matching,exact,0.2,1.0,0.3333,100.0
+Exact Matching,partial,0.1333,0.6667,0.2222,66.67
+Exact Matching,typo,0.0133,0.0667,0.0222,6.67
+Exact Matching,variant,0.0,0.0,0.0,0.0
+Expanded Hybrid,exact,0.1867,0.9333,0.3111,93.33
+Expanded Hybrid,partial,0.1556,0.7778,0.2592,77.78
+Expanded Hybrid,typo,0.1644,0.8222,0.274,82.22
+Expanded Hybrid,variant,0.1467,0.7333,0.2444,73.33
+Fuzzy Only,exact,0.1733,0.8667,0.2889,86.67
+Fuzzy Only,partial,0.1378,0.6889,0.2296,68.89
+Fuzzy Only,typo,0.1644,0.8222,0.274,82.22
+Fuzzy Only,variant,0.1111,0.5556,0.1852,55.56
+Hybrid Fuzzy + Trigram,exact,0.1867,0.9333,0.3111,93.33
+Hybrid Fuzzy + Trigram,partial,0.1556,0.7778,0.2592,77.78
+Hybrid Fuzzy + Trigram,typo,0.1644,0.8222,0.274,82.22
+Hybrid Fuzzy + Trigram,variant,0.1333,0.6667,0.2222,66.67
+TF-IDF,exact,0.1867,0.9333,0.3111,93.33
+TF-IDF,partial,0.16,0.8,0.2666,80.0
+TF-IDF,typo,0.1689,0.8444,0.2815,84.44
+TF-IDF,variant,0.1378,0.6889,0.2296,68.89
+Trigram Only,exact,0.1867,0.9333,0.3111,93.33
+Trigram Only,partial,0.1511,0.7556,0.2518,75.56
+Trigram Only,typo,0.1556,0.7778,0.2592,77.78
+Trigram Only,variant,0.1111,0.5556,0.1852,55.56
